@@ -4,126 +4,193 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Job Description Form</title>
+    <title>Vibasu</title>
     <link rel="stylesheet" href="CSS/bootstrap.min.css">
     <link rel="stylesheet" href="CSS/font-awesome.min.css">
     <link rel="stylesheet" href="CSS/bootstrap-social.css">
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
     <div class="container">
-        <div class="row mt-3">
-            <div class="col-md-9 col-sm-12 col-12">
-                <form>
-                    <div class="form-group row">
-                        <label for="title" class="col-md-2 col-form-label">Title</label>
-                        <div class="col-md-9">
-                            <input type="text" class="form-control" id="title" name="title" placeholder="Urgent requirement of front end developer">
-                        </div>
+        <div class="row">
+            <div class="col-md-12 col-12">
+                <div class="card" style="margin-top: 20px;">
+                    <div class="card-header card_header_color">
+                        <h6>Job Details</h6>
                     </div>
-                    <div class="form-group row">
-                        <label for="Job_Type" class="col-md-2 col-form-label">Job Type</label>
-                        <div class="col-md-5">
-                            <select name="Job Type" id="Job_Type" class="form-control">
-                                <option>Select Job Type</option>
-                                <option>Front End Developer</option>
-                                <option>Tester</option>
-                            </select>
-                        </div>    
-                    </div>
-                    <div class="form-group row">
-                        <label for="Startdate" class="col-md-2 col-form-label">Start Date</label>
-                        <div class="col-md-3">
-                            <input type="date" class="form-control" id="Startdate" name="std">
-                        </div>
-                        <label for="Endtdate" class="col-md-2 col-form-label offset-md-1">End Date</label>
-                        <div class="col-md-3">
-                            <input type="date" class="form-control" id="Endtdate" name="etd">
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="currency" class="col-md-2 col-form-label">Currency</label>
-                        <div class="col-md-3">
-                            <select name="Currency" id="currency" class="form-control">
-                                <option>INR</option>
-                                <option>USD</option>
-                                <option>EURO</option>
-                            </select>
-                        </div>
-                        <label for="Salary" class="col-md-2 col-form-label offset-md-1">Salary/Stipend</label>
-                        <div class="col-md-3">
-                            <input type="text" class="form-control" id="Salary" name="Salary">
-                        </div>    
-                    </div>
-                    <div class="form-group row">
-                        <label for="WorkLoc" class="col-md-5 col-form-label">work Location (Office/Work From Home)</label>
-                        <div class="col-md-6">
-                            <select class="form-control" id="WorkLoc" name="std">
-                                <option>Full Time office Work</option>
-                                <option>Part Time office Work</option>
-                                <option>Full time Work From Home</option>
-                                <option>Part Time Work From Home</option>
-                            </select>
-                        </div>   
-                    </div>
-                    <div class="form-group row">
-                        <label for="WorkLocCity" class="col-md-5 col-form-label">work Location</label>
-                        <div class="col-md-6">
-                            <input type="text" class="form-control" id="WorkLocCity" placeholder="Prefered City">
-                        </div>   
-                    </div>
-                    <div class="form-group row">
-                        <label for="Description" class="col-md-2 col-form-label">Brief Description</label>
-                        <div class="col-md-9">
-                            <textarea class="form-control" id="Description" name="discription" rows="5"></textarea>
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="NoPos" class="col-md-2 col-form-label">No. of Positions</label>
-                        <div class="col-md-6">
-                            <input type="text" class="form-control" id="NoPos">
-                        </div>   
-                    </div>
-                    <div class="form-group row">
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                            <label class="form-check-label" for="defaultCheck1">Standard Question 1</label>
-                        </div> 
-                    </div>
-                    <div class="form-group row">
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
-                            <label class="form-check-label" for="defaultCheck2">Standard Question 2</label>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <p><strong>Job Title</strong></p>
+                            </div>
+                            <div class="col-md-8">
+                                <p>Designer</p>
+                            </div>  
                         </div>  
-                    </div>
-                    <div class="form-group row">
-                        <label for="Tags" class="col-md-2 col-form-label">Tags</label>
-                        <div class="col-md-9">
-                            <input type="text" class="form-control" id="Tags">
-                        </div>   
-                    </div>
-                    <div class="form-group row">
-                        <label for="JobCat" class="col-md-2 col-form-label">Job Categories</label>
-                        <div class="col-md-9">
-                            <input type="text" class="form-control" id="JobCat">
-                        </div>   
-                    </div>
-                    <div class="form-group row">
-                        <div class="col-md-11">
-                            <button class="btn btn-block btn-primary">Submit</button>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <p><strong>Job Type</strong></p>
+                            </div>
+                            <div class="col-md-8">
+                                <p>Intern</p>
+                            </div>  
+                        </div>  
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <p><strong>Description</strong></p>
+                            </div>
+                            <div class="col-md-8">
+                                <p>Job descriptions are the cornerstone of the recruiting process. 
+                                    They set expectations for qualified candidates and inform prospects about the role and company. 
+                                    While writing accurate and compelling job descriptions can be frustrating, 
+                                    finding the time and resources to do so is well worth your while.
+                                </p>
+                            </div>  
                         </div>
                         
+                        <div class="row">
+                            <div class="col-md-4">
+                                <p><strong>Role</strong></p>
+                            </div>
+                            <div class="col-md-8">
+                                <p>Graphic Designer</p>
+                            </div>  
+                        </div>  
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <p><strong>Join Date</strong></p>
+                            </div>
+                            <div class="col-md-8">
+                                <p>2022-01-18</p>
+                            </div>  
+                        </div>  
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <p><strong>Leave Date</strong></p>
+                            </div>
+                            <div class="col-md-8">
+                                <p>2022-01-29</p>
+                            </div>  
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col-md-5">
+                                <p><strong>Employer gave you cleanchit</strong></p>
+                            </div> 
+                        </div>
+
                     </div>
-
-                </form>
-
+                  </div>
             </div>
-
         </div>
 
+        <div class="row" style="margin-top: 20px;">
+            <div class="col-md-12 col-sm-12 col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-1">
+                                <img src="./img/myself.png" class="img-fluid" width="50px" height="50px">
+                            </div>
+                            <div class="col-md-2">
+                                <h5>Myself</h5>
+                            </div>
+                            <div class="col-md-7">
+                                <h4 style="color:rgb(14, 110, 236);">How do I set up my work environment?</h4>
+                            </div>
+                            <div class="col-md-2">
+                                <p>Jan 14 at 11:04</p>
+                            </div>
+                        </div>
+                        <div class="card" style="margin-top: 20px;">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-1">
+                                        <img src="./img/group.png" class="img-fluid" width="50px" height="50px">
+                                    </div>
+                                    <div class="col-md-2">
+                                        <h5>Organization</h5>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <p style="color:rgb(235, 65, 35);">Here are some ways! fgjr gyefhjk  hjn hjbsgjnns,kjsd, jkjkdm shjnm tdlvnlw ajmfnrk knslo,</p>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <p>Jan 14 at 11:04</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card" style="margin-top: 20px;">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-1">
+                                        <img src="./img/group.png" class="img-fluid" width="50px" height="50px">
+                                    </div>
+                                    <div class="col-md-2">
+                                        <h5>Organization</h5>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <p style="color:rgb(235, 65, 35);">Here are some ways! fgjr gyefhjk  hjn hjbsgjnns,kjsd, jkjkdm shjnm tdlvnlw ajmfnrk knslo,</p>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <p>Jan 14 at 11:04</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" style="margin-top: 20px; margin-bottom: 20px;">
+            <div class="col-md-12 col-sm-12 col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-1">
+                                <img src="./img/group.png" class="img-fluid" width="50px" height="50px">
+                            </div>
+                            <div class="col-md-2">
+                                <h5>Organization</h5>
+                            </div>
+                            <div class="col-md-7">
+                                <h4 style="color:rgb(14, 110, 236);">Was this helpful to you?</h4>
+                            </div>
+                            <div class="col-md-2">
+                                <p>Jan 15 at 11:04</p>
+                            </div>
+                        </div>
+                        <div class="card" style="margin-top: 20px;">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-1">
+                                        <img src="./img/myself.png" class="img-fluid" width="50px" height="50px">
+                                    </div>
+                                    <div class="col-md-2">
+                                        <h5>Myself</h5>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <p style="color:rgb(235, 65, 35);">Here are some ways! fgjr gyefhjk  hjn hjbsgjnns,kjsd, jkjkdm shjnm tdlvnlw ajmfnrk knslo,</p>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <p>Jan 15 at 11:04</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <script src="CSS/jquery.slim.min.js"></script>
     <script src="CSS/popper.min.js"></script>
     <script src="CSS/bootstrap.min.js"></script>
-
 </body>
 </html>
